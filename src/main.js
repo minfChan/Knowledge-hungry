@@ -6,6 +6,17 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+// *******全局引入*******
+
+// ElementUI
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+
+//Style
+import './assets/styles.css'
+
+Vue.use(ElementUI);
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
